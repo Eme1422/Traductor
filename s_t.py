@@ -11,14 +11,14 @@ from gtts import gTTS
 from deep_translator import GoogleTranslator
 
 
-st.title("TRADUCTOR.")
-st.subheader("Escucho lo que quieres traducir.")
+st.title("TRADUCTOR:")
+st.subheader("Escuchare todo lo que quieres traducir:")
 
-image = Image.open('OIG7.jpg')
+image = Image.open('escuchando.jpg')
 
 st.image(image, width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+    st.subheader("Para traducir:")
     st.write("Presiona el botón, cuando escuches la señal "
              "habla lo que quieres traducir, luego selecciona"   
              " la configuración de lenguaje que necesites.")
