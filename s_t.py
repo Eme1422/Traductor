@@ -18,7 +18,7 @@ image = Image.open('escuchando.jpg')
 
 st.image(image, width=300)
 with st.sidebar:
-    st.subheader("Traductor.")
+    st.subheader("Para traducir:")
     st.write("Presiona el botón, cuando escuches la señal "
              "habla lo que quieres traducir, luego selecciona"   
              " la configuración de lenguaje que necesites.")
